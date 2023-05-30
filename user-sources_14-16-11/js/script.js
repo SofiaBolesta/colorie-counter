@@ -1,8 +1,8 @@
 import Counter from './modules/counter.js';
 
-const counterElement = document.querySelectorAll('.counter');
+const counterElements = document.querySelectorAll(`.counter`);
 
-counterElements.forEach((elements) => {
-    const counter = new Counter(element);
-    counter.init();
+counterElements.forEach((element) => {
+  const counter = new Counter(element);
+  counter.init();
 });
